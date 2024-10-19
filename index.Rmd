@@ -52,7 +52,7 @@ Starting with simulations can seem like a daunting task. The {squidSim} R packag
 
 
 ### Using the vignette {-}
-If you are new to using the {squidSim} package, we recommend that you read Sections \@ref(linearmod) and \@ref(hierarchical) to familiarise yourself with the {squidSim} package before moving onto the more advanced topics. The later sections assume an certain level of understanding of how the functions work. 
+If you are new to using the {squidSim} package, we recommend that you read Sections \@ref(linearmod) and \@ref(hierarchical) to familiarise yourself with the {squidSim} package before moving onto the more advanced topics. The later sections assume a certain level of understanding of how the functions work. 
 
 The vignette assumes that you have a working knowledge of R, in particular being comfortable using vectors, matrices and lists.
 
