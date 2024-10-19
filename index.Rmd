@@ -221,7 +221,7 @@ We can also write this in matrix notation:
 
 $\boldsymbol{y} = X\boldsymbol{\beta} + \boldsymbol{\epsilon}$
 
-where $X$ is a matrix of predictors and $\boldsymbol{\beta}$ is a (column) vector of slopes/effect sizes. This matrix notation is a bit more compact and relates most easily the structure of the `simulate_population()` function. However it becomes more complex when we have things varying at different levels, as we have to start getting design matrices for the random effects involved e.g.
+where $X$ is a matrix of predictors (one per column) and $\boldsymbol{\beta}$ is a vector of slopes/effect sizes. This matrix notation is a bit more compact and relates most easily the structure of the `simulate_population()` function. However it becomes more complex when we have things varying at different levels, as we have to start getting design matrices for the random effects involved e.g.
 
 $\boldsymbol{y} = X\boldsymbol{\beta} + Z\boldsymbol{u} + \boldsymbol{\epsilon}$
 
