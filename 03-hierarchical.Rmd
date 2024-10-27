@@ -238,7 +238,7 @@ boxplot( y ~ factor(sex), data)
 lm( y ~ factor(sex), data)
 ```
 
-Alternately, we can specify no intercept (which defaults to 0), and the means for the two levels as betas( equivalent to `lm(body_mass~0+sex)`):
+Alternately, we can specify no intercept (which defaults to 0), and the means for the two levels as betas (equivalent to `lm(body_mass~0+sex)`):
 ```{r}
 squid_data <- simulate_population(
   data_structure = ds,
@@ -260,7 +260,7 @@ lm( y ~ factor(sex), data)
 lm( y ~ 0+factor(sex), data)
 ```
 
-We would recommend the former methods, as this makes things clearer if other factors are simulated.
+We would recommend the former method, as this makes things clearer if other factors are simulated.
 
 <!-- THIS SECTION NEEDS TO BE COMPLETED AS THERE IS A POTENTIAL BUG HERE -->
 
