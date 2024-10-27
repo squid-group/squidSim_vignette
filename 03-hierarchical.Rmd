@@ -59,6 +59,7 @@ make_structure(structure="sex(2)/individual(5)", repeat_obs=2)
 dat_str <- make_structure(structure="sex(2)/individual(5)", repeat_obs=2)
 plot_nested(dat_str)
 ```
+
 Note that in the nesting, the sample size for the lower group now represents the number within each level of the higher, rather than the total sample size, so overall there is 10 individuals. 
 
 We can nest as much as we want:
